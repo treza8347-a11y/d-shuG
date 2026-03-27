@@ -88,10 +88,22 @@
                     <a href="#avantages" class="hover:text-emerald-600">Avantages</a>
                     <a href="#resultats" class="hover:text-emerald-600">Résultats prouvés</a>
                     <a href="#pour-qui" class="hover:text-emerald-600">Pour les grandes surfaces</a>
-                    <a href="#contact" class="hover:text-emerald-600">Contact</a>
+                    
                 </div>
 
-              
+                <div class="flex items-center gap-x-4">
+                    
+                    <a onclick="document.getElementById('lead-form-section').scrollIntoView({ behavior: 'smooth' })" 
+                       class="px-8 py-3.5 bg-emerald-600 hover:bg-emerald-700 text-white font-semibold rounded-3xl flex items-center gap-x-3 shadow-lg shadow-emerald-200">
+                        <span>Obtenir un audit gratuit</span>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                    
+                    <!-- Mobile menu button -->
+                    <button onclick="toggleMobileMenu()" class="md:hidden text-3xl text-emerald-950">
+                        <i class="fa-solid fa-bars" id="mobile-icon"></i>
+                    </button>
+                </div>
             </div>
             
             <!-- Mobile Menu -->
